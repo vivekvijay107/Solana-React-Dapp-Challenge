@@ -1,13 +1,52 @@
-## Running React on Repl.it
+This React application serves as a user-friendly showcase of integrating with the Solana blockchain through the Phantom wallet provider. Users can effortlessly create wallets, connect to existing ones, transfer SOL tokens, and check their wallet balances.
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+**Table of Contents**
+- **Getting Started**
+- **Features**
+- **Dependencies**
+- **Usage**
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+**Getting Started**
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+To start using this application:
 
-### Getting Started
-- Hit run
-- Edit [App.tsx](#src/App.tsx) and watch it live update!
+1. Clone the repository to your local environment:
+   ```
+   git clone https://github.com/yourusername/solana-phantom-wallet-integration.git
+   ```
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
+2. Navigate to the project directory:
+   ```
+   cd solana-phantom-wallet-integration
+   ```
+
+3. Install the necessary dependencies:
+   ```
+   npm install
+   ```
+
+4. Launch the development server:
+   ```
+   npm start
+   ```
+
+5. Open your web browser and access the application by visiting `http://localhost:3000`.
+
+**Features**
+
+- Easy wallet creation
+- Seamless connection to existing wallets
+- Intuitive SOL token transfers
+- Convenient wallet balance checks
+
+**Dependencies**
+
+This project relies on:
+
+- React
+- Solana web3.js
+- Phantom wallet provider
+
+**Usage**
+
+Make sure to have the Phantom wallet extension installed in your browser. Then, simply follow the prompts within the application to create or connect to a wallet, perform SOL token transfers, and review wallet balances.
